@@ -14,7 +14,6 @@ async function lookupAddresses(twitterHandle: string) {
                 obfuscatedIdentifier,
                 [issuer.address]
             );
-        console.log(attestations);
 
         return attestations.accounts;
     } catch (error) {

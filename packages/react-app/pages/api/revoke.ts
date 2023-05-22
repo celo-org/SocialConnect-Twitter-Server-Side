@@ -8,8 +8,6 @@ async function revokeIdentifier(twitterHandle: string, address: string) {
     try {
         const identifier = await getIdentifier(twitterHandle);
 
-        console.log("Identifier", identifier);
-
         let tx = await federatedAttestationsContract.revokeAttestation(
             identifier,
             issuer.address,
@@ -17,7 +15,6 @@ async function revokeIdentifier(twitterHandle: string, address: string) {
         );
 
         let receipt = await tx.wait();
-        console.log(receipt);
         return receipt;
     } catch (error) {
         return error;

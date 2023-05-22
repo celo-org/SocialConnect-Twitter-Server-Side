@@ -58,7 +58,7 @@ export async function checkAndTopUpODISQuota() {
         authSigner,
         serviceContext
     );
-    console.log(remainingQuota);
+    console.log("Remaining Quota", remainingQuota);
 
     if (remainingQuota < 1) {
         const currentAllowance = await stableTokenContract.allowance(
