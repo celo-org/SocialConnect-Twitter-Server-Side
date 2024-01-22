@@ -38,9 +38,7 @@
     utf8 "3.0.0"
 
 "@celo/contractkit@^4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@celo/contractkit/-/contractkit-4.1.0.tgz#6e88edca10a67c90eaa5e58b64e0dda68a1df87e"
-  integrity sha512-JmlCMrU2o09zjA6hiRixdKzTTmwkm2STL39sraYD96JMJsywwnu300oRMEupDZN3HobwStKTuTnR8r+xGeWT9Q==
+  version "4.1.1"
   dependencies:
     "@celo/base" "4.1.0"
     "@celo/connect" "4.1.0"
