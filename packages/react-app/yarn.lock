@@ -64,9 +64,7 @@
     "@wagmi/chains" "^0.2.22"
 
 "@celo/react-celo@^5.0.3":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@celo/react-celo/-/react-celo-5.0.3.tgz#79d1d82b3fab4b60c5bb79518a6362598d0603b9"
-  integrity sha512-vGzcyUpaNnpr3A5m6GllEUSw0K90MRFtUKRvUROYiOShaTylVerA2Q99xdtUFhF3916NJhywzKT6p4Uf8b8b1A==
+  version "5.0.4"
   dependencies:
     "@celo/wallet-base" ">=2.3.0"
     "@celo/wallet-ledger" ">=2.3.0"
